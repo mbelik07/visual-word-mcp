@@ -1,3 +1,3 @@
-"""Visual Word MCP - Compose full-page portrait images into Word documents."""
+from .server import main
 
-__version__ = "0.1.0"
+__all__ = ["main"]
